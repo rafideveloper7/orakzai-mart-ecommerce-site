@@ -32,7 +32,7 @@ const Home = () => {
           <div className="mx-auto px-4 w-full">
             <div className="hero-content-container grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
               {/* Text Content */}
-              <div className="text-white text-center lg:text-left">
+              <div className="hero-text-container text-white text-center lg:text-left">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-blue">
                   Orakzai Mart
                 </h1>
