@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { api } from "../services/api";
 import ProductCard from "../components/ProductCard";
 import ImageSlider from "../services/hero-img-slider";
+import "../index.css"
 
 const Home = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);
@@ -26,13 +27,13 @@ const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="home-hero w-full h-[70vh]">
-        <div className="h-full bg-black bg-opacity-40 flex items-center">
-          <div className="max-w-7xl mx-auto px-4 w-full">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <section className="home-hero">
+        <div className="h-full bg-opacity-40 flex items-center">
+          <div className="mx-auto px-4 w-full">
+            <div className="hero-content-container grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
               {/* Text Content */}
               <div className="text-white text-center lg:text-left">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-blue">
                   Orakzai Mart
                 </h1>
                 <p className="text-lg md:text-xl mb-6 lg:mb-8">
@@ -59,7 +60,7 @@ const Home = () => {
 
       {/* Featured Products */}
       <section className="max-w-7xl mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-center mb-12">Featured Products</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">New Products</h2>
         
         {featuredProducts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

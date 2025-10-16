@@ -8,6 +8,7 @@ import img04 from "../assets/hero-slide-imgs/04.jpg"
 import img05 from "../assets/hero-slide-imgs/05.jpg"
 import img06 from "../assets/hero-slide-imgs/06.jpg"
 import img07 from "../assets/hero-slide-imgs/07.jpg"
+import "../index.css"
 
 const ImageSlider = () => {
   const settings = {
@@ -31,49 +32,49 @@ const ImageSlider = () => {
           <img 
             src={img01} 
             alt="Image 1" 
-            className="w-full h-96 object-cover rounded-lg shadow-xl"
+            className="h-80 object-cover rounded-lg shadow-x5 object-fill"
           />
         </div>
         <div>
           <img 
             src={img02} 
             alt="Image 2" 
-            className="w-full h-96 object-cover rounded-lg shadow-xl"
+            className="h-80 object-cover rounded-lg shadow-x5 object-fill"
           />
         </div>
         <div>
           <img 
             src={img03} 
             alt="Image 3" 
-            className="w-full h-96 object-cover rounded-lg shadow-xl"
+            className="h-80 object-cover rounded-lg shadow-x5 object-fill"
           />
         </div>
         <div>
           <img 
             src={img04} 
             alt="Image 4" 
-            className="w-full h-96 object-cover rounded-lg shadow-xl"
+            className="h-80 object-cover rounded-lg shadow-x5 object-fill"
           />
         </div>
         <div>
           <img 
             src={img05} 
             alt="Image 5" 
-            className="w-full h-96 object-cover rounded-lg shadow-xl"
+            className="h-80 object-cover rounded-lg shadow-x5 object-fill"
           />
         </div>
         <div>
           <img 
             src={img06} 
             alt="Image 6" 
-            className="w-full h-96 object-cover rounded-lg shadow-xl"
+            className="h-80 object-cover rounded-lg shadow-x5 object-fill"
           />
         </div>
         <div>
           <img 
             src={img07} 
             alt="Image 7" 
-            className="w-full h-96 object-cover rounded-lg shadow-xl"
+            className="h-80 object-cover rounded-lg shadow-x5 object-fill"
           />
         </div>
       </Slider>
