@@ -33,10 +33,10 @@ const Home = () => {
             <div className="hero-content-container grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
               {/* Text Content */}
               <div className="hero-text-container text-white text-center lg:text-left">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-blue">
+                <h1 className="hero-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-blue">
                   Orakzai Mart
                 </h1>
-                <p className="text-lg md:text-xl mb-6 lg:mb-8">
+                <p className="hero-paragraph text-lg md:text-xl mb-6 lg:mb-8">
                   Digital Shop for Dress, General Store, and Smart Devices
                 </p>
                 <Link
